@@ -1,50 +1,50 @@
-<?php
+    <?php
 
-//verificar se existe valor na passagem do parâmetro
-if( isset($_GET['cor']) ) {
-
-
-//declaração de variaveis
-
-$nome; 
-$idade;
+    //verificar se existe valor na passagem do parâmetro
+    if( isset($_GET['cor']) ) {
 
 
-//parâmetro
-$cor = $_GET["cor"];
+    //declaração de variaveis
+
+    $nome; 
+    $idade;
 
 
-//atribuir valor para uma variável
-//popular a variável
-
-//variável nome que recebe
-$nome = 'luiz' ;
-
-//aprensentar o valor da variável
-echo $nome;
-?> <br>
+    //parâmetro
+    $cor = $_GET["cor"];
 
 
-<?php
-//feche o php antes do conteudo e depois abra outra php depois da variavel 
-//concatenar = juntar um conteudo com variavel
+    //atribuir valor para uma variável
+    //popular a variável
 
-echo "Olá " . $nome ;
-$idade = 1 ;
+    //variável nome que recebe
+    $nome = 'luiz';
 
-echo $idade;
+    //aprensentar o valor da variável
+    echo $nome;
+    ?> <br>
 
-$a = $idade + 1 ;
 
-$b = " 2 ";
+    <?php
+    //feche o php antes do conteudo e depois abra outra php depois da variavel 
+    //concatenar = juntar um conteudo com variavel
 
-$c = $b + $a ;
+    echo "Olá " . $nome ;
+    $idade = 1 ;
 
-echo $a ."<br>";
-echo $b ."<br>";
-echo $c ."<br>";
+    echo $idade;
 
-echo " A cor escolhida foi " .$cor;
+    $a = $idade + 1 ;
 
-}
-?>
+    $b = " 2 ";
+
+    $c = $b + $a ;
+
+    echo $a ."<br>";
+    echo $b ."<br>";
+    echo $c ."<br>";
+
+    echo " A cor escolhida foi " .$cor;
+
+    }
+    ?>
